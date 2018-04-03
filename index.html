@@ -1,0 +1,860 @@
+﻿<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]>
+<!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>zaibox.net</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	
+	
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="css/base.css"/>
+	<link rel="stylesheet" href="css/skeleton.css"/>
+	<link rel="stylesheet" href="css/layout.css"/>
+	<link rel="stylesheet" href="css/font-awesome.css" />	
+	<link rel="stylesheet" href="css/jquery.fancybox.css" />
+	<link rel="stylesheet" href="css/flat_filled_styles.css"><!--SVG Animation Styles-->
+	<link rel="stylesheet" href="css/retina.css"/>
+	<script src="https://code.jquery.com/jquery-2.1.0.min.js" ></script>
+
+		
+	<!-- Favicons================================================== -->
+	<link rel="shortcut icon" href="zaicon.png">
+	<link rel="apple-touch-icon" href="zaiconpng">
+	<link rel="apple-touch-icon" sizes="72x72" href="zaicon.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="zicon.png">
+	<style type="text/css">
+a{color:#58bff6;text-decoration: none;}
+a:hover{color:#aaa; }
+.pull-right{float: right;}
+.pull-left{float: left;}
+.clear-fix{clear:both;}
+
+.logo-active{fill: #44aacc !important;}
+#formWrapper{
+	/*background: rgba(0,0,0,.2);*/ 
+	width:100%; 
+	height:100%; 
+	position: absolute; 
+	top:0; 
+	left:0;
+	transition:all .3s ease;}
+.darken-bg{background: rgba(0,0,0,.5) !important; transition:all .3s ease;}
+
+div#form{
+	position: absolute;
+	width:360px;
+	height:320px;
+	height:auto;
+	background-color: #fff;
+	margin:auto;
+	border-radius: 5px;
+	padding:10px 20px;
+	left:50%;
+	top:50%;
+	margin-left:-180px;
+	margin-top:-200px;
+}
+div.form-item{position: relative; display: block; margin-bottom: 30px;}
+ input{transition: all .2s ease;}
+ input.form-style{
+	color:#8a8a8a;
+	display: block;
+	width: 90%;
+	height: 44px;
+	padding: 5px 5%;
+	border:1px solid #ccc;
+	-moz-border-radius: 27px;
+	-webkit-border-radius: 27px;
+	border-radius: 27px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	background-color: #fff;
+	font-family:'HelveticaNeue','Arial', sans-serif;
+	font-size: 105%;
+	letter-spacing: .8px;
+}
+div.form-item .form-style:focus{outline: none; border:1px solid #58bff6; color:#58bff6; }
+div.form-item p.formLabel {
+	position: absolute;
+	left:26px;
+	top:16px;
+	transition:all .4s ease;
+	color:#bbb;}
+.formTop{top:-22px !important; left:26px; background-color: #fff; padding:0 5px; font-size: 14px; color:#58bff6 !important;}
+.formStatus{color:#8a8a8a !important;}
+input[type="submit"].login{
+	float:right;
+	width: 112px;
+	height:50px!important;
+	-moz-border-radius: 19px;
+	-webkit-border-radius: 19px;
+	border-radius: 29px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	background-color:#186ea2;
+	border:1px solid #186ea2;
+	border:none;
+	color: #fff;
+	font-weight: bold;
+}
+input[type="submit"].login:hover{background-color: #fff; border:1px solid #55b1df; color:#55b1df; cursor:pointer;}
+input[type="submit"].login:focus{outline: none;}
+
+	</style>
+	
+	
+</head>
+<body class="royal_loader" id="html">	
+	<!-- Primary Page Layout
+	================================================== -->
+
+	
+	
+		<div id="menu-wrap" class="menu-back cbp-af-header">
+			<!-- <section class="gratiss" >
+				<a class="scroll" href="#contact">
+					<div> Registrese Gratis</div></a>
+				<br>
+				
+			</section> -->
+			<div class="container" id="menuone">
+				<div class="sixteen columns" id="columnasone">
+					<a href="#home"><div class="logo" ></div></a>
+					<ul class="slimmenu">
+						<li> 
+							<a class="scroll" href="#contact">Afiliate</a>
+						</li>
+						<li> 
+							<a class="scroll" href="#about">Como funciona</a>
+						</li>
+						<li>
+							<a class="scroll" href="#team">Nosotros</a>
+						</li>
+						<li>
+							<a class="" href="preguntas.html">Preguntas frecuentes</a>
+						</li>
+					
+						<li>
+							<a class="scroll" href="#">Contacto</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<section class="guias">
+					<td colspan="2"><span class="letrasLCRed" style="color: white; padding: 11px;" >Guía</span>
+          				<input name="nrogui" style="background-color:white" type="text" value="">
+          				<input name="ffw" type="hidden" value="00001">
+         				<button><img src="images/next.png"></button>
+         			</td>
+					
+			</section>
+			<section class="guiasdos">
+
+					
+         				<button id="but">Ingresar</button>
+         								
+			</section>
+		</div>		
+
+		
+		
+		
+		
+
+
+
+
+		
+		
+			
+			<div id="home">	
+				<div class="just_pattern"></div>
+				<div class="parallax-home"></div>	
+				<div class="small-text">
+				<!--div class="cl-effect-5">
+					<a class="scroll" href="#work"><span data-hover="portfolio">portfolio</span></a> 
+					<a class="scroll" href="#contact"><span data-hover="contact">contact</span></a>
+				</div-->
+				</div>
+				<!--div class="social-top">
+					<ul class="list-social">
+						<li class="icon-soc tipped" data-title="twitter"  data-tipper-options='{"direction":"top","follow":"true"}'>
+							<a href="#">&#xf099;</a>
+						</li>
+						<li class="icon-soc tipped" data-title="facebook"  data-tipper-options='{"direction":"top","follow":"true"}'>
+							<a href="#">&#xf09a;</a>
+						</li>
+						<li class="icon-soc tipped" data-title="instagram"  data-tipper-options='{"direction":"top","follow":"true"}'>
+							<a href="#">&#xf09b;</a>
+						</li>
+					</ul>	
+				</div-->	
+				<div class="big-text">
+					<ul class="flippy">
+						<li><span>Quieres comprar en USA</span></li>
+						<li><span>Registrate gratis!</span></li>
+						<li><span>Nosotros lo traemos</span></li>
+
+					</ul>
+				</div>								
+				<a class="scroll" href="#about"><div class="scroll-btn tipped" data-title="about agency"  data-tipper-options='{"direction":"top","follow":"true"}'></div></a>
+			</div>
+			<section id="poper" style="position:fixed; top:0px; z-index:9999;display:none;background-color:rgb(24, 110, 162,0.7); width:100%; height: 100%;">
+				<button id="close" style="width:auto;">X</button>
+
+				<div id="form">
+					<img src="images/logozai.png">
+
+						<div class="form-item">
+							<p class="formLabel">Usuario</p>
+							<input type="email" name="email" id="email" class="form-style" autocomplete="off"/>
+						</div>
+						<div class="form-item">
+							<p class="formLabel">Contraseña</p>
+							<input type="password" name="password" id="password" class="form-style" />
+							<!-- <div class="pw-view"><i class="fa fa-eye"></i></div> -->
+							<p><a href="#" ><small>Forgot Password ?</small></a></p>	
+						</div>
+						<div class="form-item">
+						<p class="pull-left"><a href="#"><small>Register</small></a></p>
+						<input type="submit" class="login pull-right" value="Log In">
+						<div class="clear-fix"></div>
+						</div>
+				</div>
+			</section>
+
+			
+			<div id="about">
+				<div class="container">
+					<div class="sixteen columns" data-scrollreveal="enter top and move 150px over 1s" id="comprass">
+						<div class="header-text">
+							<div class="header-shadow-text">Comprar</div>
+							<h1>Sus Compras en 3 pasos</h1>
+							<!-- <p>Con estos simples pasos puedes comenzar a comprar en el mundo de la tecnología y tener 
+							todo lo que deseas.</p> -->
+						</div>
+					</div>
+				</div>
+				<div class="clear"></div>
+				
+				<div class="video-sections">
+					<div class="video-section-1">	
+						<div class="just_pattern"></div>
+						<video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" poster="images/1.jpg"> 
+							<source src="videos/cell.webm" type="video/webm"> 
+							<source src="videos/cell.mp4" type="video/mp4"> 
+							<source src="videos/cell.ogg" type="video/ogg"> 
+						</video>
+						<div class="text-over-video">Registrate y compra ya</div>	
+					</div>	
+					<div class="video-section-2">	
+						<div class="container">
+							<div class="nine columns padding-top-video-sec2" data-scrollreveal="enter right and move 150px over 1s">
+								<h5>1. Compre en internet</h5>
+								<!-- <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Praesent commodo arcu massa.</p> -->
+							</div>
+							<div class="clear"></div>
+							<div class="nine columns" data-scrollreveal="enter right and move 150px over 1s">
+								<h5>2. Envíe su casillero en miami</h5>
+								<!-- <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Praesent commodo arcu massa.</p> -->
+							</div>
+							<div class="clear"></div>
+							<div class="nine columns" data-scrollreveal="enter right and move 150px over 1s">
+								<h5>3. Reciba su paquete en casa u oficina</h5>
+								<!-- <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Praesent commodo arcu massa.</p> -->
+							</div>
+						</div>
+					</div>	
+				</div>	
+			</div>
+
+			
+			<div id="team">
+				<div class="container">
+					<div class="sixteen columns" data-scrollreveal="enter top and move 150px over 1s">
+						<div class="header-text">
+							<div class="header-shadow-text">ZAIBOX</div>
+							<h1>Nosotros</h1>
+							<p>ZAI CARGO EU. es una empresa prestadora de servicios dedicada a la consolidación internacional de carga, nacionalización y distribución especializada, que satisface necesidades de transporte de envíos tanto personales como empresariales en los países donde hace presencia, para lo cual cuenta con personal idóneo y profesional en el área, una infraestructura logística eficaz, que garantiza solidez y permanencia en el mercado contribuyendo con su labor al desarrollo de su personal y de los países donde opera.</p>
+						</div>
+					</div>
+					
+				</div>
+				<div class="container">
+
+				     <div class="header-text">
+						<!--div class="header-shadow-text">Visión</div-->
+							<!--h1>Visión</h1-->
+							<p>Ser reconocida nacional e internacionalmente como una empresa multimodal de carga conectando con su servicio a todos los países del mundo..</p>
+						</div>
+					</div>
+				</div>
+						
+			</div>			
+			
+			
+			<div id="sep1">	
+				<div class="just_pattern"></div>
+				<div class="parallax"></div>
+						<div class="slideshow" id="slideshow">
+							<div id="services">	
+				<div class="container">
+					<div class="sixteen columns" data-scrollreveal="enter top and move 150px over 1s">
+						<div class="header-text">
+							<div class="header-shadow-text">servicios</div>
+							<h1>servicios</h1>
+							<!-- <p>JUST CHECK OUT ALL OF THE SERVICE LISTS BELOW TO GET A GENERAL IDEA OF WHAT WE ARE CAPABLE OF DELIVERING.</p> -->
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="one-third column" data-scrollreveal="enter left and move 150px over 1s">
+						<div class="services-offer">
+							<img src="images/002.png">
+							<h5>Cotizador</h5>
+							<!-- <p>Cum sociis natoque penatibus et magnis dis massa.</p> -->
+						</div>
+					</div>
+					<div class="one-third column" data-scrollreveal="enter bottom and move 150px over 1s">
+						<a href="noticias.html" target="" >
+							<div class="services-offer">
+							<img src="images/001.png">
+							<h5>Noticias</h5>
+							<!-- <p>Cum sociis natoque penatibus et magnis dis massa.</p> -->
+						</div>
+					</div>
+					<div class="one-third column" data-scrollreveal="enter right and move 150px over 1s">
+						<a href="Condiciones.html" target="blank">
+							<div class="services-offer">
+								<img src="images/003.png">
+								<h5>Condiciones</h5>
+								<!-- <p>Cum sociis natoque penatibus et magnis dis massa.</p> -->
+							</div>
+						</a>
+					</div>
+					<div class="clear"></div>
+					<div class="one-third column"  data-scrollreveal="enter left and move 150px over 1s">
+						
+						<div class="services-offer">
+							<img src="images/004.png">
+							<h5>Sugerencias</h5>
+							<!-- <p>Cum sociis natoque penatibus et magnis dis massa.</p> -->
+						</div>
+						
+					</div>
+					<div class="one-third column" data-scrollreveal="enter bottom and move 150px over 1s">
+						<a href="https://www.google.com/maps/d/viewer?mid=1Nb1fPpmVYQff5E19A7V_P6aqefY&ll=15.524600606852706%2C-77.22973865&z=5" target="blank">
+								<div class="services-offer">
+									<img src="images/006.png">
+									<h5>Contáctenos </h5>
+									<!-- <p>Cum sociis natoque penatibus et magnis dis massa.</p> -->
+								</div>
+						</a>
+					</div>
+					<div class="one-third column" data-scrollreveal="enter right and move 150px over 1s">
+						<a href="http://www.zaicargochat.com/livehelp/" target="blank" >
+							<div class="services-offer">
+								<img src="images/005.png" >
+								<h5>Ayuda en línea</h5>
+								<!-- <p>Cum sociis natoque penatibus et magnis dis massa.</p> -->
+							</div>
+					    </a>
+					</div>
+				</div>			
+			</div>
+							
+						</div><!-- /slideshow -->		
+
+			</div>			
+			
+			
+						
+
+
+			<!--div id="sep2">	
+				<div class="just_pattern"></div>
+				<div class="parallax2"></div>	
+				<div class="container z-index">
+					<div class="four columns">
+						<div class="facts-wrap">
+							<div class="facts-wrap-num"><span class="counter">87</span></div>
+							<h5>Clients</h5> 
+						</div>
+					</div>
+					<div class="four columns">
+						<div class="facts-wrap">
+							<div class="facts-wrap-num"><span class="counter">25</span></div>
+							<h5>Awards</h5> 
+						</div>
+					</div>
+					<div class="four columns">
+						<div class="facts-wrap">
+							<div class="facts-wrap-num"><span class="counter">68</span></div>
+							<h5>Projects</h5> 
+						</div>
+					</div>
+					<div class="four columns">
+						<div class="facts-wrap">
+							<div class="facts-wrap-num"><span class="counter">46</span></div>
+							<h5>Mails</h5> 
+						</div>
+					</div>
+				</div>						
+			</div-->
+
+
+
+			
+			
+			
+
+			<!--div id="plans">	
+				<div class="container">
+					<div class="sixteen columns" data-scrollreveal="enter top and move 150px over 1s">
+						<div class="header-text">
+							<div class="header-shadow-text">our plans</div>
+							<h1>our plans</h1>
+							<p>YOU CAN CONFIGURE YOUR PRICING TABLE USING THE GRID SYSTEM IN ORDER TO MAKE IT RESPONSIVE FOR SMALL DEVICES.</p>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="one-third column" data-scrollreveal="enter left and move 150px over 1s">
+						<div class="plans-offer">
+							<h3>$9.99<span> – month</span></h3>
+							<h6>Standard</h6>
+							<p><strong>24/7</strong> TECH SUPPORT</p>
+							<p><strong>15</strong> PROJECTS</p>
+							<p><strong>5GB</strong> STORAGE</p>
+							<p>UNLIMITED USERS</p>
+							<div class="cl-effect-5"><a href="#"><span data-hover="sing up">sing up</span></a></div>
+						</div>
+					</div>
+					<div class="one-third column" data-scrollreveal="enter bottom and move 150px over 1s">
+						<div class="plans-offer-gold">
+							<h3>$17.99<span> – month</span></h3>
+							<h6>Gold</h6>
+							<p><strong>24/7</strong> TECH SUPPORT</p>
+							<p><strong>25</strong> PROJECTS</p>
+							<p><strong>15GB</strong> STORAGE</p>
+							<p>UNLIMITED USERS</p>
+							<div class="cl-effect-5"><a href="#"><span data-hover="sing up">sing up</span></a></div>
+						</div>
+					</div>
+					<div class="one-third column" data-scrollreveal="enter right and move 150px over 1s">
+						<div class="plans-offer">
+							<h3>$34.99<span> – month</span></h3>
+							<h6>Premium</h6>
+							<p><strong>24/7</strong> TECH SUPPORT</p>
+							<p><strong>100</strong> PROJECTS</p>
+							<p><strong>50GB</strong> STORAGE</p>
+							<p>UNLIMITED USERS</p>
+							<div class="cl-effect-5"><a href="#"><span data-hover="sing up">sing up</span></a></div>
+						</div>
+					</div>
+				</div>	
+			</div-->
+
+			<!--div id="logos">
+				<div class="container">	
+					<div class="sixteen columns">
+						<div class="logos-wrap">
+							<img  src="images/logos/1.png" alt="" />	
+						</div>
+						<div class="logos-wrap">
+							<img  src="images/logos/2.png" alt="" />	
+						</div>	
+						<div class="logos-wrap">
+							<img  src="images/logos/3.png" alt="" />	
+						</div>	
+						<div class="logos-wrap">
+							<img  src="images/logos/4.png" alt="" />	
+						</div>	
+						<div class="logos-wrap">
+							<img  src="images/logos/5.png" alt="" />	
+						</div>	
+						<div class="logos-wrap">
+							<img  src="images/logos/2.png" alt="" />	
+						</div>		
+					</div>
+				</div>		
+			</div-->		
+
+
+			<!--div id="blog">	
+				<div class="just_pattern"></div>
+				<div class="parallax1"></div>
+				<div class="container z-index">	
+					<div class="one-third column">
+						<div class="blog-post">
+							<img  src="images/blog/1.jpg" alt="" />
+							<h5>Blog post</h5>
+							<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Praesent commodo arcu massa.</p>
+							<p><span>26.2.2014.</span><span> 3 comments</span></p>
+						</div>
+					</div>	
+					<div class="one-third column">
+						<div class="blog-post">
+							<img  src="images/blog/2.jpg" alt="" />
+							<h5>Blog post</h5>
+							<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Praesent commodo arcu massa.</p>
+							<p><span>17.2.2014.</span><span> 7 comments</span></p>
+						</div>
+					</div>	
+					<div class="one-third column">
+						<div class="blog-post">
+							<img  src="images/blog/3.jpg" alt="" />
+							<h5>Blog post</h5>
+							<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Praesent commodo arcu massa.</p>
+							<p><span>12.2.2014.</span><span> 4 comments</span></p>
+						</div>
+					</div>
+				</div>		
+			</div-->			
+			
+			
+			
+			
+			
+			
+			<div id="contact">	
+				<div class="container">
+					<div class="sixteen columns" data-scrollreveal="enter top and move 150px over 1s">
+						<div class="header-text">
+							<div class="header-shadow-text">Afiliate</div>
+							<h1>Afiliate</h1>
+							<p>Es totalmente gratis, suscribete a nuestro servicio, para recibir todo lo que compres en USA, nosotros te lo entregamos en la puerta de la casa u oficina.</p>
+						</div>
+					</div>
+				</div>
+				<div class="container">	
+					<form name="ajax-form" id="ajax-form" action="mail-it.php" method="post">
+						<div class="con"><p>Datos Personales</p></div>
+						<div class="eight columns">
+							<label for="name">Nombres y apellidos: * 
+								<span class="error" id="err-name">please enter name</span>
+							</label>
+							<input name="name" id="name" type="text" />
+						</div>
+						<div class="eight columns">
+							<label for="email">Empresa: * 
+								<span class="error" id="err-email">please enter e-mail</span>
+								<span class="error" id="err-emailvld">e-mail is not a valid format</span>
+							</label>
+							<input name="email" id="email" type="text" />
+						</div>
+						
+						
+						<div class="clear"></div>	
+						
+						<div class="error" id="err-state"></div>
+
+
+                         <!-- segunda linea form -->
+						<div class="eight columns">
+							<label for="name">Dirección: * 
+								<span class="error" id="err-name">please enter name</span>
+							</label>
+							<input name="name" id="name" type="text" />
+						</div>
+						<div class="eight columns">
+							<label for="email">Ciudad: * 
+								<span class="error" id="err-email">please enter e-mail</span>
+								<span class="error" id="err-emailvld">e-mail is not a valid format</span>
+							</label>
+							<input name="email" id="email" type="text" />
+						</div>
+						
+						<div class="clear"></div>	
+						
+						<div class="error" id="err-state"></div>
+
+
+						<!-- 3 linea form -->
+						<div class="eight columns">
+							<label for="name">Codigo postal: * 
+								<span class="error" id="err-name">please enter name</span>
+							</label>
+							<input name="name" id="name" type="text" />
+						</div>
+						<div class="eight columns">
+							<label for="email">E-Mail: * 
+								<span class="error" id="err-email">please enter e-mail</span>
+								<span class="error" id="err-emailvld">e-mail is not a valid format</span>
+							</label>
+							<input name="email" id="email" type="text" />
+						</div>
+				
+						
+						
+						<div class="clear"></div>	
+						
+						<div class="error" id="err-state"></div>
+
+
+						<!-- 4 linea form -->
+						<div class="eight columns">
+							<label for="name">Teléfono: * 
+								<span class="error" id="err-name">please enter name</span>
+							</label>
+							<input name="name" id="name" type="text" />
+						</div>
+						<div class="eight columns">
+							<label for="email">fax: * 
+								<span class="error" id="err-email">please enter e-mail</span>
+								<span class="error" id="err-emailvld">e-mail is not a valid format</span>
+							</label>
+							<input name="email" id="email" type="text" />
+						</div>
+						
+						
+						<div class="clear"></div>	
+						
+						<div class="error" id="err-state"></div>
+
+
+						<div class="con"><p>Información Casilleros</p></div>
+
+						<!-- 5 linea form -->
+						<div class="eight columns">
+							<label for="name">Teléfono: * 
+								<span class="error" id="err-name">please enter name</span>
+							</label>
+							<select name="cas_agencia_id" class="reciboSMALLCAP" id="Select1" style="width : 100%; padding:2%;padding-top: 10px; padding-bottom: 10px; font: 13px/22px 'Open Sans', sans-serif;  ">
+                  
+			                  <option value="8026">ZAI CARGO CP</option>
+			                  
+			                  <option value="8730">NISSI BOX</option>
+			                  
+			                  <option value="8998">MILLENNIALS SHOP</option>
+			                  
+			                  <option value="7754">MASTER SHOP</option>
+			                  
+			                  <option value="8496">ECUAPOSTAL S.A</option>
+			                  
+			                </select>
+							
+							
+						</div>
+						<div class="eight columns">
+							<label for="email">digite su clave: * 
+								<span class="error" id="err-email">please enter e-mail</span>
+								<span class="error" id="err-emailvld">e-mail is not a valid format</span>
+							</label>
+							<input name="cas_password" id="email" type="password" />
+						</div>
+						
+						
+						<div class="clear"></div>	
+						
+						<div class="error" id="err-state"></div>
+
+                          <div class="con"><p>Términos y condiciones</p></div>
+						<!-- 6 linea form -->
+						<div class="sixteen columns">
+							<textarea name="textarea" cols="50" rows="6" readonly="readonly" wrap="virtual"
+							style="height:200px;">Todos los que utilicen los casilleros Postales de Zai Cargo y hagan compras a traves de empresas como Amazon.com ? tigerdirect.com  y otras estan sujetos a los siguientes terminos y condiciones : 
+1-Zai cargo NO se hace responsable de ningun envio que recibamos :
+A-Con defectos
+B-Rotos o deteriorados
+C-Equivocados 
+D-Sin informacion correcta 
+2-Zai cargo NO asumira ningun tipo de pago a terceros por mercancias que se reciban en nuestras bodegas.
+3-Zai Cargo NO se hace responsable de ningun tipo de pago fraudulento realizado por la mercancia que recibamos a traves del casillero postal .
+4-Todo el que acepte utilizar a Zai cargo como transportadora, acepta pagar todos los costos por Libra /seguro/Impuestos exigidos por la empresa o por el pais de destino.
+5-Solo transportaremos envios con CONTENIDOS legales en el pais origen como en el pais de destino cumpliendo todas las normas aduanales exigidas .
+
+NO podemos transportar : 
+A-Prendas Militares.
+B-Explosivos o Inflamables.
+C-Contaminantes.
+D-Dinero o Titulos Valores.
+E-Aerosoles
+F-Articulos   como ?Vidrio? con empaques  insuficientes para su proteccion.
+
+El Servicio de casillero internacional consiste en la asignación de un número de cuenta el cual habilita al subscriptor a recibir mercancía de cualquier índole dentro del marco legal. Realizar los procesos de clasificación, inspección, generación de documentación, transporte internacional, trámites aduaneros y entrega. 
+
+Una vez aceptada la inscripción del servicio se asignara un número de cuenta con el cual pueden rastrear sus envíos vía Web. 
+
+Nuestra empresa se compromete a realizar los trámites aduaneros correspondientes a la Mercancía y envíos urgentes los cuales incluyen desaduanamiento, reconocimiento, liberación y entrega
+
+Si el SUSCRIPTOR entregara información errada sobre dirección u otros elementos necesarios para la oportuna y correcta entrega, nuestra empresa no se hará responsable de este envío y el SUSCRIPTOR correrá con los gastos extras que ocasione este error. 
+
+Las tarifas de transporte podrán ser modificadas sin previo aviso para adecuarlas a los aumentos de costos de las aerolíneas y/o cualquier otro factor comercial que tenga que ver con la prestación del servicio. La mercancía se ASEGURA para garantizar la tranquilidad al suscriptor, el seguro no opera para daños o perdidas parciales de la mercancia ,todo opera en caso que el paquete no llegue a su destino. 
+
+La Mercancía deberá recibirse para su envío Embalada de acuerdo a sus características, con el propósito de resguardar la misma, ya que el seguro no cubre  daños por  embalaje inapropiado. El suscriptor después que recibe la Mercancía  y firma  en conformidad  pierde el derecho de reclamar. Recomendamos abrir la Mercancía y chequear en presencia del personal de la Empresa.  Si la Mercancía requiere un embalaje especial es importante notificar a la Empresa para su elaboración.
+Al  Suscriptor se le concede 03 días para retirar la Mercancía desde el momento de la notificación, en caso contrario la Empresa cobrara Almacenaje y no se responsabilizara por la misma.
+Al realizar las compras es necesario que el Suscriptor coloque su nombre propio y  la direccion de zai cargo  , con la finalidad  que el pedido al llegar a la oficina se agregue  al sistema WEB. La página donde podrá rastrear sus compras es www.zaicargo.com.
+Nuestra empresa no es responsable por el mal direccionamiento de la mercancía a nuestras oficinas de , el suscriptor entiende que debe hacer llegar la mercancía a nuestras oficinas  mediante compañías domesticas. 
+Las direcciones de recibo de la mercancía pueden ser modificadas en cualquier momento, avisando a los suscriptores  para las correcciones pertinentes, con suficiente antelación. 
+El suscriptor declara conocer las restricciones legales y administrativas a que pueden estar sujetos sus envíos y será responsable por todo aquello que llegue consignado a su casillero. Nuestra empresa no se hará responsable por pérdidas resultantes de confiscación aduanera, ni de retrasos ocasionados por la falta de documentación o información necesaria para el despacho o para el trámite aduanero.
+Es prohibido Transportar : armas, precursores químicos, joyas, dinero en efectivo, material pornográfico, juguetes bélicos, billetes de lotería y todas aquellas que prohíban las autoridades correspondientes  y las contempladas como prohibidas por la Unión Postal Universal.
+Nuestra empresa se reserva el derecho de rehusar o  retener envíos dirigidos a un suscriptor cuya cuenta se encuentre en mora.
+Nos reservamos el derecho de admisión y la Empresa tiene autonomía para la cancelación de cuentas en abandono, inactivas o que presenten antecedentes de fraude o mal uso o uso anormal del mismo.
+
+
+                  
+
+
+                  </textarea>
+                  <tr valign="baseline">
+                <td nowrap="" align="right">&nbsp;</td>
+                <td colspan="3">
+                  <span class="txtTituloJ"><input name="terminos" type="checkbox" id="terminos" value="1" checked="checked" disabled="disabled">ACEPTO LOS TERMINOS Y CONDICIONES</span> 
+				  
+				  <input name="AB" type="hidden" class="boxesNoCase" id="AB" value="AB" size="32"></td>
+              </tr>
+							
+							
+							
+						</div>
+						
+						
+						<div class="three columns">
+							<div id="button-con"><button class="send_message" id="send">Submit</button></div>
+						</div>
+						<div class="clear"></div>	
+						<div class="error text-align-center" id="err-form">There was a problem validating the form please check!</div>
+						<div class="error text-align-center" id="err-timedout">The connection to the server timed out!</div>
+						<div class="error" id="err-state"></div>
+
+
+
+
+
+					</form>	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					<div class="clear"></div>
+					<div id="ajaxsuccess">Successfully sent!!</div>	
+					<div class="clear"></div>
+					<div class="eight columns" data-scrollreveal="enter left and move 150px over 1s">
+						<div class="contact-wrap">
+							<p><i class="icon-contact1">&#xf095;</i><span>Telefono</span> (381) 267-6386 <small><em>Monday–Friday | 9am–5pm (GMT +1)</em></small></p>
+						</div>
+					</div>
+					<div class="eight columns" data-scrollreveal="enter right and move 150px over 1s">	
+						<div class="contact-wrap">
+							<p><i class="icon-contact1">&#xf041;</i><span>Direccion</span> First Street, Sunrise Avenue, New York, USA</p>	
+						</div>
+					</div>	
+					<!-- <div class="sixteen columns" data-scrollreveal="enter bottom and move 150px over 1s">	
+						<a class="button-map close-map"><span>Locate Us on Map</span></a>
+					</div>
+				</div>
+				<div id="google_map"></div>		 -->		
+			</div>
+			
+
+
+			
+			<div id="footer">
+				<a class="scroll" href="#home"><div class="back-top">&#xf102;</div></a>	
+				<div class="container">
+					<div class="sixteen columns">
+						
+						<p><small>ZAIBOX.NET CopyRight 2018</small></p>
+					</div>
+				</div>	
+			</div>
+            
+
+
+           
+
+
+
+
+
+
+
+
+
+
+
+	
+   
+
+
+	
+	<!-- JAVASCRIPT
+    ================================================== -->
+<script type="text/javascript" src="js/pop.js"></script>
+<script type="text/javascript" src="js/login.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.js"></script>	 
+<script type="text/javascript" src="js/royal_preloader.min.js"></script>
+<script type="text/javascript">
+(function($) { "use strict";
+            Royal_Preloader.config({
+                mode:           'text', // 'number', "text" or "logo"
+                text:           'Zaibox.net',
+                timeout:        0,
+                showInfo:       true,
+                opacity:        1,
+                background:     ['#FFFFFF']
+            });
+})(jQuery);
+</script>
+<script type="text/javascript" src="js/classie.js"></script>
+<script type="text/javascript" src="js/cbpAnimatedHeader.min.js"></script>
+<script type="text/javascript">
+(function($) { "use strict";
+   var pos = 0;
+
+    window.setInterval(function(){
+      pos++;
+      document.getElementsByClassName('parallax-home')[0].style.backgroundPosition = pos + "px 0px";
+    }, 40);
+})(jQuery);
+</script>
+<script type="text/javascript" src="js/retina-1.1.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.js"></script> 
+<script type="text/javascript" src="js/flippy.js"></script>
+<script type="text/javascript" src="js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="js/tiltSlider.js"></script>
+<script>
+(function($) { "use strict";
+	new TiltSlider( document.getElementById( 'slideshow' ) );
+})(jQuery);
+</script>
+<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
+<script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+<script type="text/javascript" src="js/svg_inject_flat_icons_filled.js"></script><!--Inject SVG and Toggle CSS Styles-->
+<script type="text/javascript" src="js/contact.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script type="text/javascript" src="js/plugins.js"></script>
+<script type="text/javascript" src="js/template.js"></script>  	  
+<!-- End Document
+================================================== -->
+</body>
+</html>
