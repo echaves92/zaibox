@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]>
+<!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+   <!-- Basic Page Needs
+  ================================================== -->
+   <meta charset="utf-8"/>
+   <title>zaibox.net</title>
+   <meta name="description" content=""/>
+   <meta name="author" content=""/>
+   <!-- Mobile Specific Metas
+  ================================================== -->
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+   <!-- CSS
+  ================================================== -->
+   <link rel="stylesheet" href="css/base.css"/>
+   <link rel="stylesheet" href="css/skeleton.css"/>
+   <link rel="stylesheet" href="css/layout.css"/>
+   <link rel="stylesheet" href="css/font-awesome.css" /> 
+   <link rel="stylesheet" href="css/jquery.fancybox.css" />
+   <link rel="stylesheet" href="css/flat_filled_styles.css"><!--SVG Animation Styles-->
+   <link rel="stylesheet" href="css/retina.css"/>
+   <script src="https://code.jquery.com/jquery-2.1.0.min.js" ></script>
+   <!-- Favicons================================================== -->
+   <link rel="shortcut icon" href="zaicon.png"/>
+   <link rel="apple-touch-icon" href="zaiconpng"/>
+   <link rel="apple-touch-icon" sizes="72x72" href="zaicon.png"/>
+   <link rel="apple-touch-icon" sizes="114x114" href="zicon.png"/>
+   <style type="text/css">
+a{color:#58bff6;text-decoration: none;}
+a:hover{color:#aaa; }
+.pull-right{float: right;}
+.pull-left{float: left;}
+.clear-fix{clear:both;}
+
+.logo-active{fill: #44aacc !important;}
+#formWrapper{
+   /*background: rgba(0,0,0,.2);*/ 
+   width:100%; 
+   height:100%; 
+   position: absolute; 
+   top:0; 
+   left:0;
+   transition:all .3s ease;}
+.darken-bg{background: rgba(0,0,0,.5) !important; transition:all .3s ease;}
+
+div#form{
+   position: absolute;
+   width:360px;
+   height:320px;
+   height:auto;
+   background-color: #fff;
+   margin:auto;
+   border-radius: 5px;
+   padding:10px 20px;
+   left:50%;
+   top:50%;
+   margin-left:-180px;
+   margin-top:-200px;
+}
+div.form-item{position: relative; display: block; margin-bottom: 30px;}
+ input{transition: all .2s ease;}
+ input.form-style{
+   color:#8a8a8a;
+   display: block;
+   width: 90%;
+   height: 44px;
+   padding: 5px 5%;
+   border:1px solid #ccc;
+   -moz-border-radius: 27px;
+   -webkit-border-radius: 27px;
+   border-radius: 27px;
+   -moz-background-clip: padding;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   background-color: #fff;
+   font-family:'HelveticaNeue','Arial', sans-serif;
+   font-size: 105%;
+   letter-spacing: .8px;
+}
+div.form-item .form-style:focus{outline: none; border:1px solid #58bff6; color:#58bff6; }
+div.form-item p.formLabel {
+   position: absolute;
+   left:26px;
+   top:16px;
+   transition:all .4s ease;
+   color:#bbb;}
+.formTop{top:-22px !important; left:26px; background-color: #fff; padding:0 5px; font-size: 14px; color:#58bff6 !important;}
+.formStatus{color:#8a8a8a !important;}
+input[type="submit"].login{
+   float:right;
+   width: 112px;
+   height:50px!important;
+   -moz-border-radius: 19px;
+   -webkit-border-radius: 19px;
+   border-radius: 29px;
+   -moz-background-clip: padding;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   background-color:#186ea2;
+   border:1px solid #186ea2;
+   border:none;
+   color: #fff;
+   font-weight: bold;
+}
+input[type="submit"].login:hover{background-color: #fff; border:1px solid #55b1df; color:#55b1df; cursor:pointer;}
+input[type="submit"].login:focus{outline: none;}
+</style>
+</head>
+<body class="royal_loader" id="html">  
+   <form action="http://zaicargo.controlbox.net/webcasilleros/clientes/login.asp" method="POST" name="frmaIngreso">
+      <section id="poper" style="position:fixed; top:0px; z-index:9999;display:none;background-color:rgb(24, 110, 162,0.7); width:100%; height: 100%;">
+         <button id="close" style="width:auto;">X</button>
+         <div id="form">
+            <img src="images/logozai.png">
+            <div class="form-item">
+               <p class="formLabel">Usuario</p>
+               <!-- <input type="email" name="email" id="email" class="form-style" autocomplete="off"/> -->
+               <input id="email" type="email" name="usuario" type="text" class="form-style" placeholder="Escriba su casillero ZB#-###" style="background-color:#FFD" value="" autocomplete="off" />
+            </div>
+            <div class="form-item">
+               <p class="formLabel">Contraseña</p>
+               <!-- <input type="password" name="password" id="password" class="form-style" /> -->
+               <input type="password" name="clave" style="background-color:#FFD"  class="form-style" />
+               <!-- <div class="pw-view"><i class="fa fa-eye"></i></div> -->
+               <p>
+                  <a href="javascript:window.open('http://zaicargo.controlbox.net/webcasilleros/oc.asp','RecuperarContra','width=400,height=400,scrollbars=no,toolbar=no')">
+                     <small>Forgot Password ?</small>
+                  </a>
+               </p>  
+            </div>http://zaicargo.controlbox.net/webcasilleros/registro.asp
+            <div class="form-item">
+               <p class="pull-left">
+                  <a href="javascript:window.open('http://zaicargo.controlbox.net/webcasilleros/oc.asp','RecuperarContra','width=400,height=400,scrollbars=no,toolbar=no')">
+                     <small>Register</small>
+                  </a>
+               </p>
+               <input type="submit" class="login pull-right" value="Log In">
+               <div class="clear-fix"></div>
+            </div>
+         </div>
+      </section>
+   </form>
+</body>
+</html>
+<!-- <form action="http://zaicargo.controlbox.net/webcasilleros/clientes/login.asp" method="POST" name="frmaIngreso">
+<table align="right" border="0" cellspacing="0" cellpadding="0" >
+  <tr>
+    <td class="<%= texto1%>"><div align="right">Usuario</div>
+    <td><div align="left">
+      <input name="usuario" type="text" class="txtCajas" placeholder="Escriba su casillero ZB#-###" style="background-color:#FFD" value="" />
+    </div></tr>
+  <tr>
+    <td colspan="2"></td>
+    </tr>
+  <tr>
+    <td class="<%= texto1%>"><div align="right"><span class="txtTextoI">Contrase&ntilde;a</span></div></td>
+    <td align="left"><div align="left">
+      <input name="clave" style="background-color:#FFD" type="password" class="txtCajas" />
+    </div></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="right" class="letrasLCAster"><a href="javascript:window.open('http://zaicargo.controlbox.net/webcasilleros/oc.asp','RecuperarContra','width=400,height=400,scrollbars=no,toolbar=no')">Olvido su clave?</a>
+      <input name="Ingreso" type="submit" value="Ingresar" class="btnAccion" /></td>
+  </tr>
+</table>
+</form> -->
