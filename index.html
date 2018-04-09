@@ -141,9 +141,14 @@ input[type="submit"].login:focus{outline: none;}
 </div>
 <section class="guias">
 	<td colspan="2"><span class="letrasLCRed" style="color: white; padding: 11px;" >Guía</span>
-		<input name="nrogui" style="background-color:white" type="text" value="">
+		<!-- <input name="nrogui" style="background-color:white" type="text" value="">
 		<input name="ffw" type="hidden" value="00001">
-		<button><img src="images/next.png"></button>
+		<button><img src="images/next.png"></button> -->
+		<form class="form-rastreo" action="http://zaicargo.controlbox.net/app/rastreo/rastreo.asp" method="post" target="_blank">
+			<input name="nrogui" style="background-color:white" type="text"  />
+			<input name="ffw" type="hidden" value="00001" />
+			<button type="submit"><img src="images/next.png"/></button>
+		</form>
 	</td>
 </section>
 <section class="guiasdos">

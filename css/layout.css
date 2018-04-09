@@ -3286,6 +3286,12 @@ ul.slimmenu li > ul {
     font-style: normal;
 }
 
+.form-rastreo
+{
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
 
 
 
