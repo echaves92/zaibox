@@ -22,3 +22,19 @@ function abrir_login()
 {
  document.getElementById('gratis').style.display="none";
 }
+
+$(document).ready(function () 
+{
+	$("#login").click(function ()
+	{
+		window.open('http://zaicargo.controlbox.net/webcasilleros/clientes/login.asp','Iniciar Sesión','width=400,height=400,scrollbars=no,toolbar=no');
+	});
+	$("#register").click(function ()
+	{
+		window.open('http://zaicargo.controlbox.net/webcasilleros/registro.asp','Registro','width=400,height=500,scrollbars=yes,toolbar=no');
+	});
+	$("#reset_pass").click(function ()
+	{
+		window.open('http://zaicargo.controlbox.net/webcasilleros/oc.asp','title=Recuperar Contraseña','width=400,height=500,scrollbars=no,toolbar=no');
+	});
+});

@@ -17,106 +17,22 @@
 	<link rel="stylesheet" href="css/base.css"/>
 	<link rel="stylesheet" href="css/skeleton.css"/>
 	<link rel="stylesheet" href="css/layout.css"/>
-	<link rel="stylesheet" href="css/font-awesome.css" />	
-	<link rel="stylesheet" href="css/jquery.fancybox.css" />
+	<link rel="stylesheet" href="css/font-awesome.css"/>	
+	<link rel="stylesheet" href="css/jquery.fancybox.css"/>
 	<link rel="stylesheet" href="css/flat_filled_styles.css"><!--SVG Animation Styles-->
 	<link rel="stylesheet" href="css/retina.css"/>
-	<script src="https://code.jquery.com/jquery-2.1.0.min.js" ></script>
+	<link rel="stylesheet" href="css/style.css"/>
+	<script src="https://code.jquery.com/jquery-2.1.0.min.js"></script>
 	<!-- Favicons================================================== -->
 	<link rel="shortcut icon" href="zaicon.png"/>
 	<link rel="apple-touch-icon" href="zaiconpng"/>
 	<link rel="apple-touch-icon" sizes="72x72" href="zaicon.png"/>
 	<link rel="apple-touch-icon" sizes="114x114" href="zicon.png"/>
-	<style type="text/css">
-a{color:#58bff6;text-decoration: none;}
-a:hover{color:#aaa; }
-.pull-right{float: right;}
-.pull-left{float: left;}
-.clear-fix{clear:both;}
-
-.logo-active{fill: #44aacc !important;}
-#formWrapper{
-	/*background: rgba(0,0,0,.2);*/ 
-	width:100%; 
-	height:100%; 
-	position: absolute; 
-	top:0; 
-	left:0;
-	transition:all .3s ease;}
-.darken-bg{background: rgba(0,0,0,.5) !important; transition:all .3s ease;}
-
-div#form{
-	position: absolute;
-	width:360px;
-	height:320px;
-	height:auto;
-	background-color: #fff;
-	margin:auto;
-	border-radius: 5px;
-	padding:10px 20px;
-	left:50%;
-	top:50%;
-	margin-left:-180px;
-	margin-top:-200px;
-}
-div.form-item{position: relative; display: block; margin-bottom: 30px;}
- input{transition: all .2s ease;}
- input.form-style{
-	color:#8a8a8a;
-	display: block;
-	width: 90%;
-	height: 44px;
-	padding: 5px 5%;
-	border:1px solid #ccc;
-	-moz-border-radius: 27px;
-	-webkit-border-radius: 27px;
-	border-radius: 27px;
-	-moz-background-clip: padding;
-	-webkit-background-clip: padding-box;
-	background-clip: padding-box;
-	background-color: #fff;
-	font-family:'HelveticaNeue','Arial', sans-serif;
-	font-size: 105%;
-	letter-spacing: .8px;
-}
-div.form-item .form-style:focus{outline: none; border:1px solid #58bff6; color:#58bff6; }
-div.form-item p.formLabel {
-	position: absolute;
-	left:26px;
-	top:16px;
-	transition:all .4s ease;
-	color:#bbb;}
-.formTop{top:-22px !important; left:26px; background-color: #fff; padding:0 5px; font-size: 14px; color:#58bff6 !important;}
-.formStatus{color:#8a8a8a !important;}
-input[type="submit"].login{
-	float:right;
-	width: 112px;
-	height:50px!important;
-	-moz-border-radius: 19px;
-	-webkit-border-radius: 19px;
-	border-radius: 29px;
-	-moz-background-clip: padding;
-	-webkit-background-clip: padding-box;
-	background-clip: padding-box;
-	background-color:#186ea2;
-	border:1px solid #186ea2;
-	border:none;
-	color: #fff;
-	font-weight: bold;
-}
-input[type="submit"].login:hover{background-color: #fff; border:1px solid #55b1df; color:#55b1df; cursor:pointer;}
-input[type="submit"].login:focus{outline: none;}
-</style>
 </head>
 <body class="royal_loader" id="html">	
 <!-- Primary Page Layout
 	================================================== -->
 	<div id="menu-wrap" class="menu-back cbp-af-header">
-<!-- <section class="gratiss" >
-<a class="scroll" href="#contact">
-<div> Registrese Gratis</div></a>
-<br>
-</section> -->
 <div class="container" id="menuone">
 	<div class="sixteen columns" id="columnasone">
 		<a href="#home"><div class="logo" ></div></a>
@@ -141,9 +57,6 @@ input[type="submit"].login:focus{outline: none;}
 </div>
 <section class="guias">
 	<td colspan="2"><span class="letrasLCRed" style="color: white; padding: 11px;" >Guía</span>
-		<!-- <input name="nrogui" style="background-color:white" type="text" value="">
-		<input name="ffw" type="hidden" value="00001">
-		<button><img src="images/next.png"></button> -->
 		<form class="form-rastreo" action="http://zaicargo.controlbox.net/app/rastreo/rastreo.asp" method="post" target="_blank">
 			<input name="nrogui" style="background-color:white" type="text"  />
 			<input name="ffw" type="hidden" value="00001" />
@@ -161,25 +74,6 @@ input[type="submit"].login:focus{outline: none;}
 <div id="home">	
 	<div class="just_pattern"></div>
 	<div class="parallax-home"></div>	
-	<div class="small-text">
-		<!--div class="cl-effect-5">
-		<a class="scroll" href="#work"><span data-hover="portfolio">portfolio</span></a> 
-		<a class="scroll" href="#contact"><span data-hover="contact">contact</span></a>
-		</div-->
-	</div>
-	<!--div class="social-top">
-	<ul class="list-social">
-	<li class="icon-soc tipped" data-title="twitter"  data-tipper-options='{"direction":"top","follow":"true"}'>
-	<a href="#">&#xf099;</a>
-	</li>
-	<li class="icon-soc tipped" data-title="facebook"  data-tipper-options='{"direction":"top","follow":"true"}'>
-	<a href="#">&#xf09a;</a>
-	</li>
-	<li class="icon-soc tipped" data-title="instagram"  data-tipper-options='{"direction":"top","follow":"true"}'>
-	<a href="#">&#xf09b;</a>
-	</li>
-	</ul>	
-	</div-->	
 	<div class="big-text">
 		<ul class="flippy">
 			<li><span>Quieres comprar en USA</span></li>
@@ -195,23 +89,20 @@ input[type="submit"].login:focus{outline: none;}
             <img src="images/logozai.png">
             <div class="form-item">
                <p class="formLabel">Usuario</p>
-               <!-- <input type="email" name="email" id="email" class="form-style" autocomplete="off"/> -->
                <input id="email" type="email" name="usuario" type="text" class="form-style"  style="background-color:#FFD" value="" autocomplete="off" />
             </div>
             <div class="form-item">
                <p class="formLabel">Contraseña</p>
-               <!-- <input type="password" name="password" id="password" class="form-style" /> -->
                <input type="password" name="clave" style="background-color:#FFD"  class="form-style" />
-               <!-- <div class="pw-view"><i class="fa fa-eye"></i></div> -->
                <p>
-                  <a href="javascript:window.open('http://zaicargo.controlbox.net/webcasilleros/oc.asp','RecuperarContra','width=400,height=400,scrollbars=no,toolbar=no')">
+                  <a id="reset_pass" href="javascript:void(0);">
                      <small>Forgot Password ?</small>
                   </a>
                </p>  
             </div>
             <div class="form-item">
                <p class="pull-left">
-                  <a href="javascript:window.open('http://zaicargo.controlbox.net/webcasilleros/registro.asp','RecuperarContra','width=400,height=400,scrollbars=no,toolbar=no')">
+                  <a id="register" href="javascript:void(0);">
                      <small>Register</small>
                   </a>
                </p>
@@ -226,8 +117,6 @@ input[type="submit"].login:focus{outline: none;}
 				<div class="header-text">
 					<div class="header-shadow-text">Comprar</div>
 					<h1>Sus Compras en 3 pasos</h1>
-						<!-- <p>Con estos simples pasos puedes comenzar a comprar en el mundo de la tecnología y tener 
-						todo lo que deseas.</p> -->
 				</div>
 			</div>
 		</div>
@@ -246,17 +135,14 @@ input[type="submit"].login:focus{outline: none;}
 				<div class="container">
 					<div class="nine columns padding-top-video-sec2" data-scrollreveal="enter right and move 150px over 1s">
 						<h5>1. Compre en internet</h5>
-						<!-- <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Praesent commodo arcu massa.</p> -->
 					</div>
 					<div class="clear"></div>
 					<div class="nine columns" data-scrollreveal="enter right and move 150px over 1s">
 						<h5>2. Envíe su casillero en miami</h5>
-						<!-- <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Praesent commodo arcu massa.</p> -->
 					</div>
 					<div class="clear"></div>
 					<div class="nine columns" data-scrollreveal="enter right and move 150px over 1s">
 						<h5>3. Reciba su paquete en casa u oficina</h5>
-						<!-- <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Praesent commodo arcu massa.</p> -->
 					</div>
 				</div>
 			</div>	
@@ -274,8 +160,6 @@ input[type="submit"].login:focus{outline: none;}
 		</div>
 		<div class="container">
 			<div class="header-text">
-				<!--div class="header-shadow-text">Visión</div-->
-				<!--h1>Visión</h1-->
 				<p>Ser reconocida nacional e internacionalmente como una empresa multimodal de carga conectando con su servicio a todos los países del mundo..</p>
 			</div>
 		</div>
@@ -291,7 +175,6 @@ input[type="submit"].login:focus{outline: none;}
 						<div class="header-text">
 							<div class="header-shadow-text">servicios</div>
 							<h1>servicios</h1>
-							<!-- <p>JUST CHECK OUT ALL OF THE SERVICE LISTS BELOW TO GET A GENERAL IDEA OF WHAT WE ARE CAPABLE OF DELIVERING.</p> -->
 						</div>
 					</div>
 				</div>
@@ -300,7 +183,6 @@ input[type="submit"].login:focus{outline: none;}
 						<div class="services-offer">
 							<img src="images/002.png">
 							<h5>Cotizador</h5>
-							<!-- <p>Cum sociis natoque penatibus et magnis dis massa.</p> -->
 						</div>
 					</div>
 					<div class="one-third column" data-scrollreveal="enter bottom and move 150px over 1s">
@@ -308,7 +190,6 @@ input[type="submit"].login:focus{outline: none;}
 							<div class="services-offer">
 								<img src="images/001.png">
 								<h5>Noticias</h5>
-								<!-- <p>Cum sociis natoque penatibus et magnis dis massa.</p> -->
 							</div>
 						</div>
 						<div class="one-third column" data-scrollreveal="enter right and move 150px over 1s">
@@ -316,7 +197,6 @@ input[type="submit"].login:focus{outline: none;}
 								<div class="services-offer">
 									<img src="images/003.png">
 									<h5>Condiciones</h5>
-									<!-- <p>Cum sociis natoque penatibus et magnis dis massa.</p> -->
 								</div>
 							</a>
 						</div>
@@ -325,7 +205,6 @@ input[type="submit"].login:focus{outline: none;}
 							<div class="services-offer">
 								<img src="images/004.png">
 								<h5>Sugerencias</h5>
-								<!-- <p>Cum sociis natoque penatibus et magnis dis massa.</p> -->
 							</div>
 						</div>
 						<div class="one-third column" data-scrollreveal="enter bottom and move 150px over 1s">
@@ -333,7 +212,6 @@ input[type="submit"].login:focus{outline: none;}
 								<div class="services-offer">
 									<img src="images/006.png">
 									<h5>Contáctenos </h5>
-									<!-- <p>Cum sociis natoque penatibus et magnis dis massa.</p> -->
 								</div>
 							</a>
 						</div>
@@ -342,7 +220,6 @@ input[type="submit"].login:focus{outline: none;}
 								<div class="services-offer">
 									<img src="images/005.png" >
 									<h5>Ayuda en línea</h5>
-									<!-- <p>Cum sociis natoque penatibus et magnis dis massa.</p> -->
 								</div>
 							</a>
 						</div>
@@ -426,7 +303,6 @@ input[type="submit"].login:focus{outline: none;}
 					<div class="clear"></div>	
 					<div class="error" id="err-state"></div>
 					<div class="con"><p>Información Casilleros</p></div>
-					<!-- 5 linea form -->
 					<div class="eight columns">
 						<label for="name">Teléfono: * 
 							<span class="error" id="err-name">please enter name</span>
@@ -519,11 +395,6 @@ input[type="submit"].login:focus{outline: none;}
 						<p><i class="icon-contact1">&#xf041;</i><span>Direccion</span> First Street, Sunrise Avenue, New York, USA</p>	
 					</div>
 				</div>	
-				<!-- <div class="sixteen columns" data-scrollreveal="enter bottom and move 150px over 1s">	
-				<a class="button-map close-map"><span>Locate Us on Map</span></a>
-				</div>
-				</div>
-				<div id="google_map"></div>		 -->		
 			</div>
 			<div id="footer">
 				<a class="scroll" href="#home"><div class="back-top">&#xf102;</div></a>	
@@ -540,16 +411,6 @@ input[type="submit"].login:focus{outline: none;}
 	<script type="text/javascript" src="js/pop.js"></script>
 	<script type="text/javascript" src="js/login.js"></script>
 	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function () 
-		{
-			$("#login").click(function ()
-			{
-				window.open('http://zaicargo.controlbox.net/webcasilleros/clientes/login.asp','Iniciar Sesión','width=400,height=400,scrollbars=no,toolbar=no');
-				//alert("ENTRO");
-			});
-		});
-	</script>
 	<script type="text/javascript" src="js/modernizr.custom.js"></script>	 
 	<script type="text/javascript" src="js/royal_preloader.min.js"></script>
 	<script type="text/javascript">
