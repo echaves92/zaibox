@@ -58,7 +58,7 @@
 <section class="guias">
 	<td colspan="2"><span class="letrasLCRed" style="color: white; padding: 11px;" >Guía</span>
 		<form class="form-rastreo" action="http://zaicargo.controlbox.net/app/rastreo/rastreo.asp" method="post" target="_blank">
-			<input name="nrogui" style="background-color:white" type="text"  />
+			<input required="true" name="nrogui" style="background-color:white" type="text"  />
 			<input name="ffw" type="hidden" value="00001" />
 			<button type="submit"><img src="images/next.png"/></button>
 		</form>
@@ -89,11 +89,11 @@
             <img src="images/logozai.png">
             <div class="form-item">
                <p class="formLabel">Usuario</p>
-               <input id="email" type="email" name="usuario" type="text" class="form-style"  style="background-color:#FFD" value="" autocomplete="off" />
+               <input required="true" id="email" type="email" name="usuario" type="text" class="form-style"  style="background-color:#FFD" value="" autocomplete="off" />
             </div>
             <div class="form-item">
                <p class="formLabel">Contraseña</p>
-               <input type="password" name="clave" style="background-color:#FFD"  class="form-style" />
+               <input required="true" type="password" name="clave" style="background-color:#FFD"  class="form-style" />
                <p>
                   <a id="reset_pass" href="javascript:void(0);">
                      <small>Forgot Password ?</small>
