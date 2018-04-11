@@ -3000,7 +3000,7 @@ html[xmlns] .slides {display: block;}
 	border-top-left-radius:3px;
 	border-top-right-radius:3px;
 	text-align:center;
-	z-index:10000;	
+	z-index:1000;	
 	font-size: 22px;
 	line-height: 40px;
 	background:#f2f2f2;
