@@ -37,4 +37,8 @@ $(document).ready(function ()
 	{
 		window.open('http://zaicargo.controlbox.net/webcasilleros/oc.asp','title=Recuperar Contraseña','width=400,height=500,scrollbars=no,toolbar=no');
 	});
+	$("#sugestions").click(function ()
+	{
+		window.open('http://zaibox.net/sugerencias.asp','title=Sugerencias','width=500,height=400,scrollbars=no,toolbar=no');
+	});
 });
