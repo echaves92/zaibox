@@ -118,10 +118,17 @@ input[type="submit"].login:hover {
 input[type="submit"].login:focus {
   outline: none;
 }
+#team {
+  padding: 6rem 0 !important;
+}
+#contact {
+  padding-top: 4 !important;
+}
 #comprass {
   padding: 0 !important;
 }
-.questions #comprass {
+.questions #comprass,
+.conditions #comprass {
   padding-top: 6rem !important;
 }
 .text-over-video {
