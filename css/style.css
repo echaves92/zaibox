@@ -165,6 +165,11 @@ input[type="submit"].login:focus {
 .sixteen .header-text p {
   font-size: 1.3rem !important;
 }
+#contact iframe {
+  position: relative;
+  height: auto !important;
+  min-height: 120vh !important;
+}
 #contact .sixteen .header-text p,
 #contact .sixteen .header-text h1 {
   color: white !important;
