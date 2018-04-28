@@ -168,7 +168,7 @@ input[type="submit"].login:focus {
 #contact iframe {
   position: relative;
   height: auto !important;
-  min-height: 120vh !important;
+  min-height: 160vh !important;
 }
 #contact .sixteen .header-text p,
 #contact .sixteen .header-text h1 {
