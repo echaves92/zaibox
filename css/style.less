@@ -199,3 +199,228 @@ input[type="submit"].login:focus{outline: none;}
 		}
 	}
 }
+.guias
+{
+	right: .5vw !important;
+    width: auto !important;
+    padding: .5rem !important;
+    position: fixed !important;
+    background-color: #186ea2 !important;
+    display: -webkit-inline-box !important;
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+
+	button
+	{
+		margin: 0px !important;
+		width: 57px !important;
+		padding: 0px !important;
+		position: relative !important;
+		display: inline-block !important;
+
+		img
+		{
+			width: 20px !important;
+		}
+	}
+}
+
+.cbp-af-header.cbp-af-header-shrink .logo
+{
+	// background-image: url("../images/logozai.png") !important;
+	background:url('../images/logozai.png') no-repeat left center !important;
+	background-size: 300px !important;
+}
+
+#menuone
+{
+	width:92vw !important;
+}
+.guiasdos
+{
+	width: 85px !important;
+}
+@media only screen and (max-width: 767px) and (min-width: 320px){
+	
+	.content_logo
+	{
+		float: left !important;
+		width: 290px !important;
+		height: auto !important;
+		overflow: hidden !important;
+		min-height: 55px !important;
+		position: relative !important;
+		display: inline-block !important;
+	}
+	.menu-collapser
+	{
+		width: 100% !important;
+		float: right !important;
+		height: 48px !important;
+		padding: 0 8px !important;
+		font-size: 16px !important;
+		line-height: 48px !important;
+		position: relative !important;
+	}
+	.logo,
+	.cbp-af-header.cbp-af-header-shrink .logo
+	{
+		left: 0 !important;
+		top: 10px !important;
+		width: 100% !important;
+		-moz-transition: none !important;
+		-webkit-transition: none !important;
+		-o-transition: none !important;
+		transition: none !important;
+		background-size: 250px !important;
+	}
+	.guias,
+	.guiasdos
+	{
+		position: relative !important;
+	}
+	.guias
+	{
+		padding: 1rem !important;
+		padding-top: 0 !important;
+		display: block !important;
+		text-align: center !important;
+		span
+		{
+			color: #fff !important;
+			display: block !important;
+			position: relative !important;
+			padding-bottom: 1rem !important;
+		}
+	}
+	.guiasdos
+	{
+		width: 100% !important;
+		button
+		{
+			padding: 1rem !important;
+		}
+	}
+	.row_reverse
+	{
+		display: -webkit-box !important;
+		display: -ms-flexbox !important;
+		display: flex !important;
+
+		flex-flow: column-reverse !important;
+	}
+}
+
+.form-rastreo
+{
+	display: -webkit-box !important;
+	display: -ms-flexbox !important;
+	display: flex !important;
+}
+
+.text-over-video,
+.video-section-2
+{
+	display: none !important;
+}
+
+.video-section-1
+{
+	min-height: 450px;
+	width: 100% !important;
+	height: auto !important;
+	border-bottom: 2px solid #999;
+	background-color: #fff !important;
+	video
+	{
+		display: none !important;
+	}
+	.just_pattern
+	{
+		background-image: none !important;
+	}
+}
+
+section.d_flex
+{
+	display: grid;
+	grid-gap: 1rem;
+	padding: 2rem 2rem 2rem 2rem;
+	grid-template-columns: repeat(3, 1fr);
+	/* display: -webkit-box !important;
+	display: -ms-flexbox !important;
+	display: flex !important;
+	-ms-flex-flow: column !important;
+	-webkit-box-orient: vertical !important;
+	-webkit-box-direction: normal !important;
+	-ms-flex-flow: column !important;
+	flex-flow: column !important; */
+	h1,
+	h2
+	{
+		/* color: #fff; */
+		color: #186ea2;
+	}
+	h1
+	{
+		grid-column-start: 1;
+		grid-column-end: 4;
+		text-align: left;
+		text-transform: capitalize;
+	}
+	h2
+	{
+		text-align: left !important;
+		font-size: 1rem !important;
+	}
+	hr
+	{
+		width: 40% !important;
+		left: -.5rem !important;
+		margin-top: .5rem !important;
+		margin-bottom: .5rem !important;
+		border: 2px solid #fff !important;
+	}
+	article
+	{
+		padding: 1rem 0;
+		font-size: 30px;
+		text-align: center;
+
+		figure
+		{
+			width: 19vw;
+			min-height: 93%;
+			border-radius: 50%;
+			background-color: #fff;
+			margin: 0 auto !important;
+			img
+			{
+				width: 75% !important;
+				top: 1.5rem !important;
+				position: relative !important;
+			}
+		}
+		&.item
+		{
+			&:nth-child(2),
+			&:nth-child(3)
+			{
+				&:after
+				{
+					content: "";
+					background-image: url("../images/arrow-right.svg");
+					background-position: top left !important;
+					background-size: 100% !important;
+					background-repeat: no-repeat;
+					position: relative;
+					right: -1vw;
+					float: right;
+					width: 14%;
+					height: 100%;
+					top: -15vw;
+				}
+			}
+		}
+	}
+}

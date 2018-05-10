@@ -31,7 +31,7 @@
 		<div id="menu-wrap" class="menu-back cbp-af-header">
 			<div class="container" id="menuone">
 				<div class="sixteen columns" id="columnasone">
-					<a href="index.html">
+					<a href="index.html" class="content_logo">
 						<div class="logo" ></div>
 					</a>
 					<ul class="slimmenu">
@@ -53,19 +53,21 @@
 					</ul>
 				</div>
 			</div>
-			<section class="guias">
-				<td colspan="2">
-					<span class="letrasLCRed" style="color: white; padding: 11px;" >RASTREO</span>
-					<form class="form-rastreo" action="http://zaicargo.controlbox.net/app/rastreo/rastreo.asp" method="post" target="_blank">
-						<input required="true" name="nrogui" style="background-color:white" type="text"  />
-						<input name="ffw" type="hidden" value="00001" />
-						<button type="submit"><img src="images/next.png"/></button>
-					</form>
-				</td>
-			</section>
-			<section class="guiasdos">
-				<button id="but">Ingresar</button>
-			</section>
+			<div class="row_reverse">
+				<section class="guias">
+					<td colspan="2">
+						<span class="letrasLCRed" style="color: white; padding: 11px;" >RASTREO</span>
+						<form class="form-rastreo" action="http://zaicargo.controlbox.net/app/rastreo/rastreo.asp" method="post" target="_blank">
+							<input required="true" name="nrogui" style="background-color:white" type="text"  />
+							<input name="ffw" type="hidden" value="00001" />
+							<button type="submit"><img src="images/next.png"/></button>
+						</form>
+					</td>
+				</section>
+				<section class="guiasdos">
+					<button id="but">Ingresar</button>
+				</section>
+			</div>
 		</div>		
 		<div id="home">
 			<div class="just_pattern"></div>
@@ -125,7 +127,25 @@
 						<source src="videos/cell.mp4" type="video/mp4"/> 
 						<source src="videos/cell.ogg" type="video/ogg"/> 
 					</video>
-					<div class="text-over-video">Regístrate y compra ya</div>	
+					<div class="text-over-video">Regístrate y compra ya</div>
+					<section class="d_flex">
+						<h1>¿Cómo Funciona?</h1>
+						<article class="item">
+							<h2>1. Compra en Internet</h2>
+							<hr>
+							<figure><img src="images/shopping-e-blue.svg" alt="compra-internet"/></figure>
+						</article>
+						<article class="item">
+							<h2>2. Envia tu casillero en Miami</h2>
+							<hr>
+							<figure><img src="images/miami-locker-blue.svg" alt="envia-casillero-miami"/></figure>
+						</article>
+						<article class="item">
+							<h2>3. Recibe tu paquete en casa</h2>
+							<hr>
+							<figure><img src="images/received-package-home.svg" alt="recibe-paquete-casa"/></figure>
+						</article>
+					</section>
 				</div>	
 				<div class="video-section-2">	
 					<div class="container">
@@ -150,7 +170,7 @@
 					<div class="header-text">
 						<div class="header-shadow-text">ZAIBOX</div>
 						<h1>Nosotros</h1>
-						<p>ZAI CARGO EU. Es una empresa prestadora de servicios dedicada a la consolidación internacional de carga, nacionalización y distribución especializada, que satisface necesidades de transporte de envíos tanto personales como empresariales en los países donde hace presencia, para lo cual cuenta con personal idóneo y profesional en el área, una infraestructura logística eficaz, que garantiza solidez y permanencia en el mercado contribuyendo con su labor al desarrollo de su personal y de los países donde opera.</p>
+						<p>ZAI CARGO SAS. Es una empresa prestadora de servicios dedicada a la consolidación internacional de carga, nacionalización y distribución especializada, que satisface necesidades de transporte de envíos tanto personales como empresariales en los países donde hace presencia, para lo cual cuenta con personal idóneo y profesional en el área, una infraestructura logística eficaz, que garantiza solidez y permanencia en el mercado contribuyendo con su labor al desarrollo de su personal y de los países donde opera.</p>
 					</div>
 				</div>
 			</div>
@@ -229,6 +249,16 @@
 			<div id="contact">
 				<div class="container">
 					<iframe src="http://zaicargo.controlbox.net/webcasilleros/registro_new4.asp" frameborder="0" height="1350"></iframe>
+					<div class="eight columns" data-scrollreveal="enter left and move 150px over 1s" data-sr-init="true" data-sr-complete="true">
+						<div class="contact-wrap">
+							<p><i class="icon-contact1"></i><span>Télefono</span><label>(381) 267-6386</label> <small><em>Monday–Friday | 9am–5pm (GMT +1)</em></small></p>
+						</div>
+					</div>
+					<div class="eight columns" data-scrollreveal="enter right and move 150px over 1s" data-sr-init="true" data-sr-complete="true">	
+						<div class="contact-wrap">
+							<p><i class="icon-contact1"></i><span>Dirección</span><label>First Street, Sunrise Avenue, New York, USA<label></label></label></p>	
+						</div>
+					</div>
 				</div>	
 				<!-- <div class="container">
 					<div class="sixteen columns" data-scrollreveal="enter top and move 150px over 1s">
